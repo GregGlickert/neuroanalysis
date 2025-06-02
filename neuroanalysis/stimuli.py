@@ -396,7 +396,7 @@ class SquarePulse(Stimulus):
         return trace
 
 
-def find_square_pulses(trace, baseline=None) -> list[SquarePulse]:
+def find_square_pulses(trace, baseline=None):
     """Return a list of SquarePulse instances describing square pulses found
     in the stimulus.
     
